@@ -1,0 +1,41 @@
+{
+  "name": "digilog",
+  "version": "1.0.0",
+  "description": "A digital clock made from analog clocks, built in react.",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.9",
+    "html-webpack-plugin": "^2.30.1",
+    "style-loader": "^0.20.1",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "NODE_ENV='production' webpack -p"
+  },
+  "babel": {
+      "presets": [
+          "env",
+          "react"
+      ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bm5w/digilog.git"
+  },
+  "author": "Mark Saiget",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bm5w/digilog/issues"
+  },
+  "homepage": "https://github.com/bm5w/digilog#readme"
+}
