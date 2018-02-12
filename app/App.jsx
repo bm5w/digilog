@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Clock from './components/Clock.jsx';
+import ClockFixture from './components/ClockFixture.jsx';
 require("./index.css");
 
 class App extends React.Component {
@@ -10,9 +10,7 @@ class App extends React.Component {
 
     render() {
         return (
-            <div>
-                <Clock hour={180} minute={270}/>
-            </div>
+            <ClockFixture hour={180} minute={270}/>
         )
     }
 }
