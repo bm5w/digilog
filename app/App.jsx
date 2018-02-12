@@ -11,7 +11,7 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <Clock/>
+                <Clock hour={180} minute={270}/>
             </div>
         )
     }
